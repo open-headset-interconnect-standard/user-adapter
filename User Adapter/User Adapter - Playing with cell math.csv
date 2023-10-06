@@ -1,0 +1,28 @@
+Source:,/home/mark/src/OHIS/user-adapter/User Adapter/User Adapter.kicad_sch,,,,,,,,,,,,,,
+Date:,Thu 05 Oct 2023 04:42:05 PM PDT,,,,,,,,,,,,,,
+Tool:,Eeschema 7.0.8-7.0.8~ubuntu22.04.1,,,,,,,,,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,,,,
+Component Count:,35,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP,Link,Manufacturer,Part Number,,Buy in Qty,Cost to buy,Cost per part,Cost per Qty
+1,4,"BOM1, BOM2, BOM3, BOM4",".1"" Jumper",smitty:BOM_Item,Libraries:BOM_Item,,,https://www.ebay.com/itm/180973205082,Generic,".1"" Pin Jumper",,,,0,0
+2,4,"BOM5, BOM6, BOM7, BOM8",M3 12mm brass standoff,smitty:BOM_Item,Libraries:BOM_Item,,,https://www.ebay.com/itm/201415009549,Generic,M3 12mm brass standoff,,,,0,0
+3,8,"BOM9, BOM10, BOM11, BOM12, BOM13, BOM14, BOM15, BOM16",M3 6mm SS screw,smitty:BOM_Item,Libraries:BOM_Item,,,https://www.ebay.com/itm/185035090471,Generic,M3 6mm SS screw,,,,0,0
+4,1,BOM17,Main Board,smitty:BOM_Item,Libraries:BOM_Item,,,,Board Fab,,,100,19.6,0.196,0.196
+5,1,BOM18,Top Board,smitty:BOM_Item,Libraries:BOM_Item,,,,Board Fab,,,100,19.6,0.196,0.196
+6,1,C1,1uF,Device:C_Small,Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm,~,,https://www.mouser.com/ProductDetail/810-FG28X7R1E105KRT0,Various eg TDK,FG28X7R1E105KRT00,,,,0,0
+7,1,C3,1nF,Device:C_Small,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,~,,https://www.mouser.com/ProductDetail/810-FG18X7R1H102KNT0,Various eg TDK,FG18X7R1H102KNT00,,,,0,0
+8,4,"H1, H2, H3, H4",MountingHole_Pad,Mechanical:MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_Pad,~,,,,,,,,0,0
+9,1,J1,OHIS_8p8c_Shield,smitty:OHIS_8p8c_Shield,Connector_RJ:RJ45_Amphenol_RJHSE5380,~,,https://www.mouser.com/ProductDetail/523-RJHSE-5380,Amphenol,RJHSE-5380,,,,0,0
+10,1,J2,Headphones,Connector_Audio:AudioJack4,Libraries:Conn-3.5mm-TRRS-PJ-320L,~,,https://www.ebay.com/itm/171341984993,Generic,PJ-320A,,,,0,0
+11,1,J3,Microphone,Connector_Audio:AudioJack4,Libraries:Conn-3.5mm-TRRS-PJ-320L,~,,https://www.ebay.com/itm/171341984993,Generic,PJ-320A,,,,0,0
+12,1,J4,PTT,Connector_Audio:AudioJack4,Libraries:Conn-3.5mm-TRRS-PJ-320L,~,,https://www.ebay.com/itm/171341984993,Generic,PJ-320A,,,,0,0
+13,1,J5,Dynamic Mic Bypass,Connector_Generic:Conn_02x02_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,~,,https://www.ebay.com/itm/192706747569,Generic,".1"" 2.54mm Pin Header",,,,0,0
+14,1,J6,HP or CTIA,Connector_Generic:Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,~,,https://www.ebay.com/itm/192706747569,Generic,".1"" 2.54mm Pin Header",,,,0,0
+15,1,Q1,2N3904,Transistor_BJT:2N3904,Package_TO_SOT_THT:TO-92_Inline_Wide,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF,,https://www.mouser.com/ProductDetail/512-2N3904TA,Various eg Onsemi,2N3904,,,,0,0
+16,1,R1,75k,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,,https://www.mouser.com/ProductDetail/603-CFR-12JB-52-75K,Yageo,CFR-12JB-52-75k,,,,0,0
+17,1,R2,27k,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,,https://www.mouser.com/ProductDetail/603-CFR-12JB-52-27K,Yageo,CFR-12JB-52-27k,,,,0,0
+18,1,R3,470,Device:R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~,,https://www.mouser.com/ProductDetail/603-CFR-12JB-52-470R,Yageo,CFR-12JB-52-470R,,,,0,0
+19,1,SW1,PTT,Switch:SW_Push,Button_Switch_THT:SW_PUSH_6mm_H9.5mm,~,,https://www.ebay.com/itm/171349350074?,Generic,6x6x13mm Push Button,,,,0,0

@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mark/src/OHIS/user-adapter/User Adapter/User Adapter.kicad_sch</source>
+    <date>Thu 05 Oct 2023 05:49:25 PM PDT</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>User Adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BOM1">
+      <value>.1" Jumper</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/180973205082</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">.1" Pin Jumper</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">7.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/180973205082"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value=".1&quot; Pin Jumper"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="7.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>549dda6a-253e-44d0-928a-4ba59c715fe8</tstamps>
+    </comp>
+    <comp ref="BOM2">
+      <value>.1" Jumper</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/180973205082</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">.1" Pin Jumper</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">7.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/180973205082"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value=".1&quot; Pin Jumper"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="7.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f65b1ed-79b2-4c83-834b-7952f85e2112</tstamps>
+    </comp>
+    <comp ref="BOM3">
+      <value>.1" Jumper</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/180973205082</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">.1" Pin Jumper</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">7.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/180973205082"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value=".1&quot; Pin Jumper"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="7.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb34328e-a1c5-4922-9f2d-267d90fb91a5</tstamps>
+    </comp>
+    <comp ref="BOM4">
+      <value>.1" Jumper</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/180973205082</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">.1" Pin Jumper</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">7.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/180973205082"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value=".1&quot; Pin Jumper"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="7.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bbe8230-dd69-47bb-8731-88326f2e8d3a</tstamps>
+    </comp>
+    <comp ref="BOM5">
+      <value>M3 14mm brass standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 14mm brass standoff</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">=49.52+1.95</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 14mm brass standoff"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="=49.52+1.95"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceab0a12-b424-4e72-82d1-c6dd3f5e9b9d</tstamps>
+    </comp>
+    <comp ref="BOM6">
+      <value>M3 14mm brass standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 14mm brass standoff</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">=49.52+1.95</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 14mm brass standoff"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="=49.52+1.95"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbd07ec9-bd17-4fe5-8ece-e868db027275</tstamps>
+    </comp>
+    <comp ref="BOM7">
+      <value>M3 14mm brass standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 14mm brass standoff</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">=49.52+1.95</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 14mm brass standoff"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="=49.52+1.95"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c6addab-af02-4d77-93ce-c9d056d53ea3</tstamps>
+    </comp>
+    <comp ref="BOM8">
+      <value>M3 14mm brass standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 14mm brass standoff</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">=49.52+1.95</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 14mm brass standoff"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="=49.52+1.95"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67f6bbce-f480-4a66-ab4a-2f6bc3e6acf3</tstamps>
+    </comp>
+    <comp ref="BOM9">
+      <value>M3 6mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 6mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">15.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 6mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="15.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6551237-a07a-4d71-8c62-9182d0d1edbf</tstamps>
+    </comp>
+    <comp ref="BOM10">
+      <value>M3 6mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 6mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">15.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 6mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="15.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32e4e5fa-63e2-4bc1-a62f-ce21b3e7cf05</tstamps>
+    </comp>
+    <comp ref="BOM11">
+      <value>M3 6mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 6mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">15.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 6mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="15.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5060a887-46bc-489a-bf10-ea9d374f89e5</tstamps>
+    </comp>
+    <comp ref="BOM12">
+      <value>M3 6mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 6mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">15.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 6mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="15.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fc2785a-a2cb-414f-9391-0725848218cf</tstamps>
+    </comp>
+    <comp ref="BOM13">
+      <value>M3 10mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 10mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">19.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 10mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="19.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8d12574-0178-40ee-a4fa-af8289420639</tstamps>
+    </comp>
+    <comp ref="BOM14">
+      <value>M3 10mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 10mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">19.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 10mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="19.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0646062e-74f7-47a4-955b-e0d16ceb6e07</tstamps>
+    </comp>
+    <comp ref="BOM15">
+      <value>M3 10mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 10mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">19.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 10mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="19.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b89e37f-c320-4534-ba48-12221750bd8f</tstamps>
+    </comp>
+    <comp ref="BOM16">
+      <value>M3 10mm SS screw</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/185035090471</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 10mm SS screw</field>
+        <field name="Z0 Buy in Qty">500</field>
+        <field name="Z1 Cost to buy">19.96</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/185035090471"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 10mm SS screw"/>
+      <property name="Z0 Buy in Qty" value="500"/>
+      <property name="Z1 Cost to buy" value="19.96"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9776f2a4-20f8-4060-9917-94d930fc8029</tstamps>
+    </comp>
+    <comp ref="BOM17">
+      <value>Main Board</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Manufacturer">Board Fab</field>
+        <field name="Z0 Buy in Qty">100</field>
+        <field name="Z1 Cost to buy">=36.62+20</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value=""/>
+      <property name="Manufacturer" value="Board Fab"/>
+      <property name="Part Number" value=""/>
+      <property name="Z0 Buy in Qty" value="100"/>
+      <property name="Z1 Cost to buy" value="=36.62+20"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47708d00-b5ba-4514-9952-16533bf5ad22</tstamps>
+    </comp>
+    <comp ref="BOM18">
+      <value>Top Board</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Manufacturer">Board Fab</field>
+        <field name="Z0 Buy in Qty">100</field>
+        <field name="Z1 Cost to buy">=36.62+20</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value=""/>
+      <property name="Manufacturer" value="Board Fab"/>
+      <property name="Part Number" value=""/>
+      <property name="Z0 Buy in Qty" value="100"/>
+      <property name="Z1 Cost to buy" value="=36.62+20"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98aa4500-5f65-4388-8c52-d05735803043</tstamps>
+    </comp>
+    <comp ref="BOM19">
+      <value>Bottom Board</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Manufacturer">Board Fab</field>
+        <field name="Z0 Buy in Qty">100</field>
+        <field name="Z1 Cost to buy">=36.62+20</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value=""/>
+      <property name="Manufacturer" value="Board Fab"/>
+      <property name="Part Number" value=""/>
+      <property name="Z0 Buy in Qty" value="100"/>
+      <property name="Z1 Cost to buy" value="=36.62+20"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3e9c359-272d-4793-a82b-804bb93f63e8</tstamps>
+    </comp>
+    <comp ref="BOM20">
+      <value>M3 3mm ABS standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 3mm ABS standoff</field>
+        <field name="Z0 Buy in Qty">1000</field>
+        <field name="Z1 Cost to buy">12.76</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 3mm ABS standoff"/>
+      <property name="Z0 Buy in Qty" value="1000"/>
+      <property name="Z1 Cost to buy" value="12.76"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f11e4ccb-e705-488d-8918-0fa0c49a93e8</tstamps>
+    </comp>
+    <comp ref="BOM21">
+      <value>M3 3mm ABS standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 3mm ABS standoff</field>
+        <field name="Z0 Buy in Qty">1000</field>
+        <field name="Z1 Cost to buy">12.76</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 3mm ABS standoff"/>
+      <property name="Z0 Buy in Qty" value="1000"/>
+      <property name="Z1 Cost to buy" value="12.76"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38396d68-6396-4b38-95f3-9dcfdfd36d61</tstamps>
+    </comp>
+    <comp ref="BOM22">
+      <value>M3 3mm ABS standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 3mm ABS standoff</field>
+        <field name="Z0 Buy in Qty">1000</field>
+        <field name="Z1 Cost to buy">12.76</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 3mm ABS standoff"/>
+      <property name="Z0 Buy in Qty" value="1000"/>
+      <property name="Z1 Cost to buy" value="12.76"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c39e2def-5ab4-4b07-aaa0-ba25b508ac11</tstamps>
+    </comp>
+    <comp ref="BOM23">
+      <value>M3 3mm ABS standoff</value>
+      <footprint>Libraries:BOM_Item</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/201415009549</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">M3 3mm ABS standoff</field>
+        <field name="Z0 Buy in Qty">1000</field>
+        <field name="Z1 Cost to buy">12.76</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="BOM_Item" description=""/>
+      <property name="Link" value="https://www.ebay.com/itm/201415009549"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="M3 3mm ABS standoff"/>
+      <property name="Z0 Buy in Qty" value="1000"/>
+      <property name="Z1 Cost to buy" value="12.76"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ee01343-f1c7-4f84-aa65-6448fe73cbf5</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/810-FG28X7R1E105KRT0</field>
+        <field name="Manufacturer">Various eg TDK</field>
+        <field name="Part Number">FG28X7R1E105KRT00</field>
+        <field name="Z0 Buy in Qty">120</field>
+        <field name="Z1 Cost to buy">11.40</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/810-FG28X7R1E105KRT0"/>
+      <property name="Manufacturer" value="Various eg TDK"/>
+      <property name="Part Number" value="FG28X7R1E105KRT00"/>
+      <property name="Z0 Buy in Qty" value="120"/>
+      <property name="Z1 Cost to buy" value="11.40"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>999ca7c5-2a65-4a6e-966e-ea9c0c57b03c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/810-FG18X7R1H102KNT0</field>
+        <field name="Manufacturer">Various eg TDK</field>
+        <field name="Part Number">FG18X7R1H102KNT00</field>
+        <field name="Z0 Buy in Qty">120</field>
+        <field name="Z1 Cost to buy">7.44</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/810-FG18X7R1H102KNT0"/>
+      <property name="Manufacturer" value="Various eg TDK"/>
+      <property name="Part Number" value="FG18X7R1H102KNT00"/>
+      <property name="Z0 Buy in Qty" value="120"/>
+      <property name="Z1 Cost to buy" value="7.44"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf3d3df6-c912-4be6-a1e4-bcce855c992b</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <fields>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Link" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="Z0 Buy in Qty" value=""/>
+      <property name="Z1 Cost to buy" value=""/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92129b1d-3ec0-4c78-a6a4-f4d64d1f2b25</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <fields>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Link" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="Z0 Buy in Qty" value=""/>
+      <property name="Z1 Cost to buy" value=""/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3847969-9a65-497f-bb56-1ae0b732f321</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <fields>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Link" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="Z0 Buy in Qty" value=""/>
+      <property name="Z1 Cost to buy" value=""/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaed3ff1-25e3-4fba-8d5e-ecf60170f098</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <fields>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Link" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="Z0 Buy in Qty" value=""/>
+      <property name="Z1 Cost to buy" value=""/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cd3b670-3e15-49d0-94f4-af0ff0829623</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>OHIS_8p8c_Shield</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_RJHSE5380</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/523-RJHSE-5380</field>
+        <field name="Manufacturer">Amphenol</field>
+        <field name="Part Number">RJHSE-5380</field>
+        <field name="Z0 Buy in Qty">120</field>
+        <field name="Z1 Cost to buy">83.76</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="smitty" part="OHIS_8p8c_Shield" description="RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/523-RJHSE-5380"/>
+      <property name="Manufacturer" value="Amphenol"/>
+      <property name="Part Number" value="RJHSE-5380"/>
+      <property name="Z0 Buy in Qty" value="120"/>
+      <property name="Z1 Cost to buy" value="83.76"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded"/>
+      <property name="ki_keywords" value="8P8C RJ female connector led"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a71042fa-6fc1-4030-8ef4-1cdfb4b19cd5</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Headphones</value>
+      <footprint>Libraries:Conn-3.5mm-TRRS-PJ-320L</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/171341984993</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">PJ-320A</field>
+        <field name="Z0 Buy in Qty">300</field>
+        <field name="Z1 Cost to buy">44.97</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Connector_Audio" part="AudioJack4" description="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="Link" value="https://www.ebay.com/itm/171341984993"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="PJ-320A"/>
+      <property name="Z0 Buy in Qty" value="300"/>
+      <property name="Z1 Cost to buy" value="44.97"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="ki_keywords" value="audio jack receptacle stereo headphones TRRS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c8b493f-cb64-46e9-8ccf-319f308a3c7d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Microphone</value>
+      <footprint>Libraries:Conn-3.5mm-TRRS-PJ-320L</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/171341984993</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">PJ-320A</field>
+        <field name="Z0 Buy in Qty">300</field>
+        <field name="Z1 Cost to buy">44.97</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Connector_Audio" part="AudioJack4" description="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="Link" value="https://www.ebay.com/itm/171341984993"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="PJ-320A"/>
+      <property name="Z0 Buy in Qty" value="300"/>
+      <property name="Z1 Cost to buy" value="44.97"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="ki_keywords" value="audio jack receptacle stereo headphones TRRS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb7480f7-d40d-4a8f-9fc9-fc535c0dbcb1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>PTT</value>
+      <footprint>Libraries:Conn-3.5mm-TRRS-PJ-320L</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/171341984993</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">PJ-320A</field>
+        <field name="Z0 Buy in Qty">300</field>
+        <field name="Z1 Cost to buy">44.97</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Connector_Audio" part="AudioJack4" description="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="Link" value="https://www.ebay.com/itm/171341984993"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="PJ-320A"/>
+      <property name="Z0 Buy in Qty" value="300"/>
+      <property name="Z1 Cost to buy" value="44.97"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 4 Poles (TRRS)"/>
+      <property name="ki_keywords" value="audio jack receptacle stereo headphones TRRS connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3787e880-db9e-4d82-a68d-bcdb02a2a389</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Dynamic Mic Bypass</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/192706747569</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">.1" 2.54mm Pin Header</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">9.89</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Link" value="https://www.ebay.com/itm/192706747569"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value=".1&quot; 2.54mm Pin Header"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="9.89"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2b671ec-ce88-4efc-b24e-10729f92e6a5</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>HP or CTIA</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/192706747569</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">.1" 2.54mm Pin Header</field>
+        <field name="Z0 Buy in Qty">400</field>
+        <field name="Z1 Cost to buy">9.89</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Link" value="https://www.ebay.com/itm/192706747569"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value=".1&quot; 2.54mm Pin Header"/>
+      <property name="Z0 Buy in Qty" value="400"/>
+      <property name="Z1 Cost to buy" value="9.89"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1e43d46-9168-47b0-82c8-d908b9e35f48</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/512-2N3904TA</field>
+        <field name="Manufacturer">Various eg Onsemi</field>
+        <field name="Part Number">2N3904</field>
+        <field name="Z0 Buy in Qty">120</field>
+        <field name="Z1 Cost to buy">11.52</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/512-2N3904TA"/>
+      <property name="Manufacturer" value="Various eg Onsemi"/>
+      <property name="Part Number" value="2N3904"/>
+      <property name="Z0 Buy in Qty" value="120"/>
+      <property name="Z1 Cost to buy" value="11.52"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be6771f2-df68-4ddc-a18b-5c71d23919d8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>75k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/603-CFR-12JB-52-75K</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">CFR-12JB-52-75k</field>
+        <field name="Z0 Buy in Qty">120</field>
+        <field name="Z1 Cost to buy">2.16</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/603-CFR-12JB-52-75K"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="CFR-12JB-52-75k"/>
+      <property name="Z0 Buy in Qty" value="120"/>
+      <property name="Z1 Cost to buy" value="2.16"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61a4481d-46f9-4da9-93e9-a8f46a2d2119</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/603-CFR-12JB-52-27K</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">CFR-12JB-52-27k</field>
+        <field name="Z0 Buy in Qty">120</field>
+        <field name="Z1 Cost to buy">2.16</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/603-CFR-12JB-52-27K"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="CFR-12JB-52-27k"/>
+      <property name="Z0 Buy in Qty" value="120"/>
+      <property name="Z1 Cost to buy" value="2.16"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c1aa58d-5488-458d-aad9-1219b0edf7bc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/603-CFR-12JB-52-470R</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">CFR-12JB-52-470R</field>
+        <field name="Z0 Buy in Qty">120</field>
+        <field name="Z1 Cost to buy">2.16</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/603-CFR-12JB-52-470R"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Part Number" value="CFR-12JB-52-470R"/>
+      <property name="Z0 Buy in Qty" value="120"/>
+      <property name="Z1 Cost to buy" value="2.16"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>414c9252-80c0-4653-93b4-af05b1612eae</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>PTT</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H9.5mm</footprint>
+      <fields>
+        <field name="Link">https://www.ebay.com/itm/171349350074?</field>
+        <field name="Manufacturer">Generic</field>
+        <field name="Part Number">6x6x13mm Push Button</field>
+        <field name="Z0 Buy in Qty">100</field>
+        <field name="Z1 Cost to buy">=4.99+2.99</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Link" value="https://www.ebay.com/itm/171349350074?"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Part Number" value="6x6x13mm Push Button"/>
+      <property name="Z0 Buy in Qty" value="100"/>
+      <property name="Z1 Cost to buy" value="=4.99+2.99"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c28f7b1-f34c-40ef-a9fd-abf0180759ea</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Audio" part="AudioJack4">
+      <description>Audio Jack, 4 Poles (TRRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack4</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="R1" name="" type="passive"/>
+        <pin num="R2" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="smitty" part="BOM_Item">
+      <fields>
+        <field name="Reference">BOM</field>
+        <field name="Footprint">Libraries:BOM_Item</field>
+      </fields>
+    </libpart>
+    <libpart lib="smitty" part="Logo_OHIS">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">Logo_OHIS</field>
+        <field name="Footprint">Libraries:Logo_OHIS_Medium</field>
+      </fields>
+    </libpart>
+    <libpart lib="smitty" part="OHIS_8p8c_Shield">
+      <description>RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ45*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OHIS_8p8c_Shield</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="passive"/>
+        <pin num="2" name="PTT" type="passive"/>
+        <pin num="3" name="Mic_GND" type="passive"/>
+        <pin num="4" name="HP_Left" type="passive"/>
+        <pin num="5" name="HP_GND" type="passive"/>
+        <pin num="6" name="Mic+Bias" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="HP_Right" type="passive"/>
+        <pin num="SH" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Audio">
+      <uri>/usr/share/kicad/symbols//Connector_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="smitty">
+      <uri>/home/mark/Bucket/apps/KiCAD/smitty.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="SH" pintype="passive"/>
+      <node ref="J4" pin="R1" pintype="passive"/>
+      <node ref="J4" pin="R2" pintype="passive"/>
+      <node ref="J4" pin="S" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="HP:G">
+      <node ref="J1" pin="5" pinfunction="HP_GND" pintype="passive"/>
+      <node ref="J2" pin="R2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="3" name="HP:L">
+      <node ref="J1" pin="4" pinfunction="HP_Left" pintype="passive"/>
+      <node ref="J2" pin="T" pintype="passive"/>
+    </net>
+    <net code="4" name="HP:R">
+      <node ref="J1" pin="8" pinfunction="HP_Right" pintype="passive"/>
+      <node ref="J2" pin="R1" pintype="passive"/>
+    </net>
+    <net code="5" name="Mic+">
+      <node ref="J1" pin="6" pinfunction="Mic+Bias" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="6" name="Mic+ 3.5">
+      <node ref="J3" pin="T" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="7" name="Mic-">
+      <node ref="J1" pin="3" pinfunction="Mic_GND" pintype="passive"/>
+      <node ref="J3" pin="R1" pintype="passive"/>
+      <node ref="J3" pin="R2" pintype="passive"/>
+      <node ref="J3" pin="S" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J5-Pin_1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J5-Pin_2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J6-Pin_4)">
+      <node ref="J2" pin="S" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Q1-B)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q1-E)">
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="PTT">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="PTT" pintype="passive"/>
+      <node ref="J4" pin="T" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Vcc-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Vcc" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
