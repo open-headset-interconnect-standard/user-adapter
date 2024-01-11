@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/mark/src/OHIS/user-adapter/User Adapter/User Adapter.kicad_sch</source>
-    <date>Thu 05 Oct 2023 05:49:25 PM PDT</date>
-    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
+    <date>Wed 10 Jan 2024 05:53:40 PM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -595,7 +595,7 @@
     </comp>
     <comp ref="C1">
       <value>1uF</value>
-      <footprint>Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
       <fields>
         <field name="Link">https://www.mouser.com/ProductDetail/810-FG28X7R1E105KRT0</field>
         <field name="Manufacturer">Various eg TDK</field>
@@ -619,6 +619,34 @@
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>999ca7c5-2a65-4a6e-966e-ea9c0c57b03c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/80-ESS476M016AE2EA</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Part Number">ESS476M016AE2EA</field>
+        <field name="Z0 Buy in Qty">100</field>
+        <field name="Z1 Cost to buy">6.20</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="Or Generic" value=""/>
+      <property name="Part Number" value="ESS476M016AE2EA"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/80-ESS476M016AE2EA"/>
+      <property name="Z0 Buy in Qty" value="100"/>
+      <property name="Z1 Cost to buy" value="6.20"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b828a4a9-bf74-4fb6-924a-21e1eeec27e2</tstamps>
     </comp>
     <comp ref="C3">
       <value>1nF</value>
@@ -646,94 +674,6 @@
       <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cf3d3df6-c912-4be6-a1e4-bcce855c992b</tstamps>
-    </comp>
-    <comp ref="H1">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <fields>
-        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
-        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Link" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Part Number" value=""/>
-      <property name="Z0 Buy in Qty" value=""/>
-      <property name="Z1 Cost to buy" value=""/>
-      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
-      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>92129b1d-3ec0-4c78-a6a4-f4d64d1f2b25</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <fields>
-        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
-        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Link" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Part Number" value=""/>
-      <property name="Z0 Buy in Qty" value=""/>
-      <property name="Z1 Cost to buy" value=""/>
-      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
-      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e3847969-9a65-497f-bb56-1ae0b732f321</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <fields>
-        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
-        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Link" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Part Number" value=""/>
-      <property name="Z0 Buy in Qty" value=""/>
-      <property name="Z1 Cost to buy" value=""/>
-      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
-      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>aaed3ff1-25e3-4fba-8d5e-ecf60170f098</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <fields>
-        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
-        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Link" value=""/>
-      <property name="Manufacturer" value=""/>
-      <property name="Part Number" value=""/>
-      <property name="Z0 Buy in Qty" value=""/>
-      <property name="Z1 Cost to buy" value=""/>
-      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
-      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1cd3b670-3e15-49d0-94f4-af0ff0829623</tstamps>
     </comp>
     <comp ref="J1">
       <value>OHIS_8p8c_Shield</value>
@@ -1006,6 +946,34 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>414c9252-80c0-4653-93b4-af05b1612eae</tstamps>
     </comp>
+    <comp ref="RV1">
+      <value>1k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_PT-6-H_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.mouser.com/ProductDetail/531-N6-S25T0C-1K</field>
+        <field name="Manufacturer">Piher</field>
+        <field name="Part Number">N6-S25T0C-102</field>
+        <field name="Z0 Buy in Qty">100</field>
+        <field name="Z1 Cost to buy">23.10</field>
+        <field name="Z2 Cost per part">=IFERROR(OFFSET(INDIRECT(CELL("Address")), 0, -1)/OFFSET(INDIRECT(CELL("Address")), 0, -2), 0)</field>
+        <field name="Z3 Cost per Qty">=OFFSET(INDIRECT(CELL("Address")), 0, -1)*INDIRECT(ADDRESS(CELL("Row"), 2))</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Small" description="Potentiometer"/>
+      <property name="Manufacturer" value="Piher"/>
+      <property name="Or Generic" value=""/>
+      <property name="Part Number" value="N6-S25T0C-102"/>
+      <property name="Link" value="https://www.mouser.com/ProductDetail/531-N6-S25T0C-1K"/>
+      <property name="Z0 Buy in Qty" value="100"/>
+      <property name="Z1 Cost to buy" value="23.10"/>
+      <property name="Z2 Cost per part" value="=IFERROR(OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)/OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -2), 0)"/>
+      <property name="Z3 Cost per Qty" value="=OFFSET(INDIRECT(CELL(&quot;Address&quot;)), 0, -1)*INDIRECT(ADDRESS(CELL(&quot;Row&quot;), 2))"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="User Adapter.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fafca9d-eaf5-4dee-9272-4d2eb2d83f9c</tstamps>
+    </comp>
     <comp ref="SW1">
       <value>PTT</value>
       <footprint>Button_Switch_THT:SW_PUSH_6mm_H9.5mm</footprint>
@@ -1091,6 +1059,22 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -1105,6 +1089,23 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Small">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Small">
@@ -1233,10 +1234,6 @@
   <nets>
     <net code="1" name="GND">
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="7" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="SH" pintype="passive"/>
       <node ref="J4" pin="R1" pintype="passive"/>
@@ -1260,6 +1257,7 @@
       <node ref="J2" pin="R1" pintype="passive"/>
     </net>
     <net code="5" name="Mic+">
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="J1" pin="6" pinfunction="Mic+Bias" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
@@ -1276,37 +1274,43 @@
       <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(J5-Pin_1)">
+    <net code="8" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J5-Pin_1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(J5-Pin_2)">
+    <net code="10" name="Net-(J5-Pin_2)">
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(J6-Pin_4)">
+    <net code="11" name="Net-(J6-Pin_4)">
       <node ref="J2" pin="S" pintype="passive"/>
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(Q1-B)">
+    <net code="12" name="Net-(Q1-B)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(Q1-E)">
+    <net code="13" name="Net-(Q1-E)">
       <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="PTT">
+    <net code="14" name="PTT">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="PTT" pintype="passive"/>
       <node ref="J4" pin="T" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="14" name="unconnected-(J1-Vcc-Pad1)">
+    <net code="15" name="unconnected-(J1-Vcc-Pad1)">
       <node ref="J1" pin="1" pinfunction="Vcc" pintype="passive+no_connect"/>
     </net>
   </nets>
