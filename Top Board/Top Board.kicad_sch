@@ -284,7 +284,7 @@
     (property "Value" "Logo_OHIS" (at 102.489 75.692 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Libraries:Logo_OHIS_Medium" (at 102.235 71.12 0)
+    (property "Footprint" "Libraries:Logo_OHIS_Large" (at 102.235 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 102.235 71.12 0)

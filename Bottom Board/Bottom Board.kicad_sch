@@ -150,6 +150,30 @@
   )
 
 
+  (symbol (lib_id "smitty:Logo_OHIS") (at 102.235 78.105 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1ae79dfb-8e21-44e8-958c-305c7a8f4e22)
+    (property "Reference" "G2" (at 102.235 84.709 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Logo_OHIS" (at 102.489 82.677 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Libraries:Logo_OHIS_Medium" (at 102.235 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 102.235 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Bottom Board"
+        (path "/a116d0e5-d36b-4525-9393-a0031df401ce"
+          (reference "G2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 162.56 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2113975a-cb20-4f95-a21c-42e2d0133bb9)
@@ -284,7 +308,7 @@
     (property "Value" "Logo_OHIS" (at 102.489 75.692 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Libraries:Logo_OHIS_Medium" (at 102.235 71.12 0)
+    (property "Footprint" "Libraries:Logo_OHIS_Large" (at 102.235 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 102.235 71.12 0)
