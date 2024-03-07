@@ -1,0 +1,9 @@
+{
+    "markdown-pdf.convertOnSave": true,
+    "markdown-pdf.type": ["pdf"],
+    "markdown-pdf.outputDirectory": "docs",
+    "markdown-pdf.format": "Letter",
+    "markdown-pdf.styles": [
+        "/home/mark/.vscode/extensions/docsmsft.docs-markdown-0.2.117/node_modules/@microsoft/dynamicproto-js/lib/docs/assets/css/main.css"
+    ]
+}
