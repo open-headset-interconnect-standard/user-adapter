@@ -19,6 +19,9 @@ This is an Open Source (free as in speech) project.  The files and documentation
 
 > <span class=note>**Note:**</span> This document will refer to OHIS User Adapter as "a kit" regardless of how you acquired the parts.
 
+The authoritative location for this design and document is:  
+<https://github.com/open-headset-interconnect-standard/user-adapter>
+
 <div class="page" />
 
 ## 1.1. Document History
