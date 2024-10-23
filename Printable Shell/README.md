@@ -2,7 +2,7 @@
 
 A printed shell for the OHIS User Adapter
 
-<img alt="ohisUserShell1-v1.2a.jpg" src="ohisUserShell1-v1.2a.jpg" height="200"/><img alt="ohisUserShell2-v1.2a.jpg" src="ohisUserShell2-v1.2a.jpg" height="200"/><img alt="ohisUserShellParts-v1.2a.jpg" src="ohisUserShellParts-v1.2a.jpg" height="200"/>
+<img alt="assembled with shell front" src="images/ohisUserShell1-v1.2a.jpg" height="200"/><img alt="assembled with shell back" src="images/ohisUserShell2-v1.2a.jpg" height="200"/><img alt="unassembled printed parts" src="images/ohisUserShellParts-v1.2a.jpg" height="200"/>
 
 ## Files
 
